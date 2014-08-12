@@ -6,7 +6,7 @@ var temp = 0;
 	    temp = arr[j];
 		arr[j] = arr[i];
 		arr[i] = temp;
-		i--;
+		i--; // This will look into the next element in the left part of the array
 	  }
 	}
  }
